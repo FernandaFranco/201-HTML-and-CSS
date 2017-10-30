@@ -47,12 +47,3 @@ table {
   border-spacing: 0;
 }
 
-h1, p, span {
-  border: 1px solid red;
-  margin: 20px;
-}
-
-span {
-  padding: 60px;
-  background-color: blue;
-}
