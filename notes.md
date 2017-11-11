@@ -16,4 +16,20 @@
 - HTML is the markup. CSS is the style.
 - HTML is descriptive. CSS is all about appearances.
 
+### Forms
+
+On the client side, an HTML form is nothing more than a convenient user-friendly way to configure an HTTP request to send data to a server. This enables the user to provide information to be delivered in the HTTP request.
+
+### Sending data
+
+The body of a get request is usually empty. Because the body is empty, the data sent to the server using a form is appended to the url.
+
+The body of a POST request is never displayed to the user, but is possible to access it with a browser developer tool.
+
+## name vs id
+
+- Typically, both the name and id attribute values are identical.
+- The for attr in a label tag refferences an id.
+- The name attribute applies mostly to input controls in forms, since the server gets a name/value pair when the form is submitted;
+- names in a group of radio buttons are the same
 
