@@ -33,3 +33,7 @@ The body of a POST request is never displayed to the user, but is possible to ac
 - The name attribute applies mostly to input controls in forms, since the server gets a name/value pair when the form is submitted;
 - names in a group of radio buttons are the same
 
+## Don't use tables for layout purposes
+
+https://launchschool.com/lessons/2d134e42/assignments/327b6fe4
+
