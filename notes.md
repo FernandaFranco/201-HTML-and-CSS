@@ -37,3 +37,5 @@ The body of a POST request is never displayed to the user, but is possible to ac
 
 https://launchschool.com/lessons/2d134e42/assignments/327b6fe4
 
+- Tables are costly. Sometimes you may need a tabular display to arrange non-tabular items; use a list or other semantic markup instead.
+
