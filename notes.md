@@ -54,5 +54,9 @@ https://launchschool.com/lessons/2d134e42/assignments/327b6fe4
 
 - setting both a height and a width to a image could break its aspect ratio
 
+### Blog post
+
+- Google used the time element to display a posting date in its search results.
+
 
 
