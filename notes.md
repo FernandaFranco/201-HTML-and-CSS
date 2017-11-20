@@ -39,3 +39,20 @@ https://launchschool.com/lessons/2d134e42/assignments/327b6fe4
 
 - Tables are costly. Sometimes you may need a tabular display to arrange non-tabular items; use a list or other semantic markup instead.
 
+## Things to explore
+
+- Screen reading software: examples of when proper semantics makes a difference
+
+- HTML5: does it offer more grouping elements to replace divs with something more meaningful? Ex: figure tag
+
+### Images
+
+- alt attribute of a img tag: not only used by assisted technologies, but search engines. Helps convey the purpose of an image.
+
+- jpg: faster load times or high color counts, photographs
+- png: great for transparencies or low color counts, icons or backgrounds patterns
+
+- setting both a height and a width to a image could break its aspect ratio
+
+
+
