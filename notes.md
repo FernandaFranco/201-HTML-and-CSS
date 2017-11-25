@@ -45,6 +45,8 @@ https://launchschool.com/lessons/2d134e42/assignments/327b6fe4
 
 - HTML5: does it offer more grouping elements to replace divs with something more meaningful? Ex: figure tag
 
+- What do you mean by "this element has a default ... property value"? Is it something that each browser/device applies to the element by default? Is it just because browsers follow a convention? Or is it a rule that is passed to the client?"
+
 ### Images
 
 - alt attribute of a img tag: not only used by assisted technologies, but search engines. Helps convey the purpose of an image.
