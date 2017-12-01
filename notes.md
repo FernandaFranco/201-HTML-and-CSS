@@ -60,5 +60,11 @@ https://launchschool.com/lessons/2d134e42/assignments/327b6fe4
 
 - Google used the time element to display a posting date in its search results.
 
+### Lengths
+
+- We omit units when using zero lengths because 0 is the same in any measurement.
+
+
+
 
 
