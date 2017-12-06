@@ -64,6 +64,14 @@ https://launchschool.com/lessons/2d134e42/assignments/327b6fe4
 
 - We omit units when using zero lengths because 0 is the same in any measurement.
 
+### Positioning
+
+- display: inline, inline-block, block
+- float: left, right
+- position: static, absolute, relative, fixed
+
+
+
 
 
 
