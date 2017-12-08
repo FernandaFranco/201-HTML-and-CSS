@@ -68,9 +68,11 @@ https://launchschool.com/lessons/2d134e42/assignments/327b6fe4
 
 - display: inline, inline-block, block
 - float: left, right
+- clear: left, right and both
+- overflow: visible, hidden, scroll, auto
 - position: static, absolute, relative, fixed
 
-
+- block formating context
 
 
 
