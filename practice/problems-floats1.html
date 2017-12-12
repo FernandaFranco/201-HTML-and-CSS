@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Problems - floats</title>
+    <meta charset="UTF-8" />
+    <style>
+    body {
+      background: #cccccc;
+    }
+    section {
+      background: #ffffff;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /*section:after {
+      content: "";
+      display: block;
+      clear: both;
+    }*/
+
+    header {
+      float: left;
+      width: 15%;
+      background: purple;
+    }
+
+    article {
+      box-sizing: border-box;
+      background: #ffffcc;
+      float: left;
+      padding-right: 30px;
+      width: 70%;
+    }
+
+    aside {
+      background: #ccffcc;
+      overflow: hidden;
+    }
+
+    footer {
+      clear: both;
+      background: #ccf;
+      margin: 0 10px;
+    }
+  </style>
+  </head>
+  <body>
+    <section>
+      <header>
+        <p>
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+        </p>
+      </header>
+      <article>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a elementum eros. Praesent finibus, leo et auctor porttitor, justo libero egestas est, at cursus dolor diam at ante. Phasellus nec tristique justo. Vestibulum imperdiet mollis erat. Suspendisse varius dui sed arcu egestas, quis bibendum lorem tristique. Nam scelerisque, lorem at viverra ultricies, nisl libero scelerisque tortor, ut tincidunt purus tortor quis neque. Donec neque arcu, gravida ut sapien ac, placerat lacinia eros. Aliquam euismod lacinia neque vel ornare. Cras auctor tempus arcu, a porta nisl viverra ac. Integer tincidunt justo eget luctus egestas. Cras vel hendrerit ligula. Donec sed tempor tortor, elementum porta lorem. Donec eu dui at dui efficitur euismod at vel metus.</p>
+        <p>Nunc molestie leo nec molestie laoreet. Pellentesque gravida sed lacus non venenatis. Praesent egestas arcu at ullamcorper pharetra. Praesent elementum ultricies est nec volutpat. Nam eu sollicitudin tellus. Proin ut erat eu justo pulvinar sodales at quis nibh. Cras id ligula at tellus tincidunt blandit. Duis faucibus ac massa eu volutpat. Nulla eu mollis ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum non leo ut odio ultricies gravida. Nam tincidunt sodales turpis, id pellentesque leo faucibus a. Nunc vel varius libero. Morbi finibus neque ex.</p>
+        <p>Sed non metus ante. Donec feugiat justo sem, nec pretium turpis luctus vel. Donec vitae feugiat eros. In dapibus lectus consequat viverra dignissim. Etiam ultricies diam lacus. Nullam elit ligula, mattis et lacus sed, pulvinar dignissim orci. Integer scelerisque egestas condimentum. Fusce sem mi, vehicula nec fringilla vitae, suscipit non augue. Vivamus et tempor mi. Cras imperdiet quam eget libero laoreet, ut tristique dui tristique. Ut pharetra in ex quis lacinia.</p>
+        <p>In vel quam suscipit, posuere purus sed, ultricies odio. Curabitur quis ligula tristique, gravida nisl in, rutrum est. Cras risus purus, suscipit a vestibulum at, bibendum non lectus. Nulla nunc orci, molestie auctor tincidunt nec, gravida vel enim. Nunc dapibus ut diam lobortis auctor. Proin pellentesque lorem eu enim volutpat viverra nec ac orci. Vestibulum dapibus, erat sed tincidunt sodales, lectus dolor feugiat arcu, a euismod elit orci id tellus. Nam sem eros, fringilla sit amet diam at, tempor pulvinar dolor. Integer facilisis libero tempus accumsan efficitur.</p>
+      </article>
+      <aside>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et congue felis. Suspendisse a mi placerat, mattis velit eu, convallis quam. Aliquam mi odio, bibendum vitae varius sit amet, fringilla ut ipsum. Maecenas sit amet condimentum orci. Donec sed metus id odio cursus malesuada. Cras maximus lorem lacus, vel lacinia diam fermentum sit amet. Sed a lorem nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pharetra auctor risus, sed vehicula diam ornare nec. Ut varius enim diam, ut elementum dui gravida ut. Nullam in dui est. Duis congue viverra volutpat. Morbi quis ante eu nunc facilisis molestie vel nec sem. Aenean molestie, dolor a aliquam tristique, mauris felis finibus ante, ut commodo odio est id velit. Maecenas vulputate porta dui.</p>
+        <p>
+          Vivamus efficitur feugiat nulla a mollis. Pellentesque rhoncus facilisis libero, vel ultrices odio malesuada et. Donec vitae euismod dui. Nullam sodales urna id mi condimentum, in tincidunt enim mollis. Maecenas ex ex, tincidunt eu semper sit amet, sagittis a tellus. Phasellus felis mi, pretium ut ullamcorper nec, bibendum eu nisi. Sed porttitor tortor eget consectetur dapibus. Proin nisl mi, consectetur a dolor id, imperdiet sollicitudin ipsum. Cras id lobortis justo, quis ultricies quam. Ut ut erat quis nisl eleifend egestas nec sed justo. Fusce at tellus fermentum, gravida dui id, egestas mauris. Sed dignissim augue pulvinar, ultrices ipsum ac, convallis lacus. Quisque lacinia fringilla quam, vitae maximus augue vehicula et. Sed rutrum, justo sed elementum eleifend, augue diam dictum odio, at placerat augue mauris ac arcu. Fusce suscipit molestie placerat. Aenean vel porttitor turpis.
+        </p>
+      </aside>
+      <footer>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </footer>
+    </section>
+  </body>
+</html>
