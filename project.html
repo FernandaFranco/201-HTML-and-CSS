@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Summary of Box Model, Positioning and Float Rules </title>
+    <meta charset="UTF-8" />
+    <style>
+      html {
+        box-sizing: border-box;
+      }
+      *,
+      :before,
+      :after {
+        box-sizing: inherit;
+      }
+      body {
+        font-family: sans-serif;
+        line-height: 2em;
+      }
+      main {
+        border: 2px solid grey;
+        padding: 20px;
+        width: 1043px;
+        margin: 0 auto;
+      }
+
+      h2 {
+        color: crimson;
+      }
+
+      .anchor {
+        border: 2px dashed black;
+        margin: 50px;
+        padding: 20px;
+        overflow: hidden;
+      }
+
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+
+      #with-margin a {
+        margin: 30px;
+      }
+
+      #with-padding a {
+        padding: 30px;
+        background: green;
+        color: white;
+      }
+
+      #with-floating a {
+        float: left;
+        border: 3px solid darkgreen;
+        background: green;
+        color: white;
+        text-align: center;
+        margin: 20px;
+        width: 120px;
+        height: 70px;
+      }
+
+      #simple {
+        background: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h2>Inline Elements</h2>
+      <p>Inline elements occupies only the space of the content. it does not take width and height values.</p>
+      <h4>Example:</h4>
+      <p>Anchor tags are normally inline elements, you see they only take up the width of their content and not the whole width of the page then the next anchor tags follow right after it.</p>
+      <div class= "anchor" id="without-margin">
+        <a href="#">Home</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </div>
+      <h4>What happens if we set a margin property on an inline level element?</h4>
+      <p>Inline elements will only take left and right margin values.</p>
+      <div class= "anchor" id="with-margin">
+        <a href="#">Home</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </div>
+      <p>In the example I put a margin of 30px on all sides, as you can see if you check the anchor tag in the developer tools only the left and right side of the contents are affected by the margin.</p>
+      <h4>What about padding?</h4>
+      <div class= "anchor" id="with-padding">
+        <a href="#">Home</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </div>
+      <p>Inline elements accept padding values on all sides.</p>
+      <h4>Floating Inline Elements</h4>
+      <div class= "anchor" id="with-floating">
+        <a href="#">Home</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+      </div>
+      <p>
+        Floating inline elements will change its display value to a block level element and subject to all block level characteristics. Which means it can take margin and padding values, height and width values as well.
+      </p>
+      <h2>Block Elements</h2>
+      <p>
+        Block level elements take up the entire width of the page and always start in a new line.It can have margin/s and padding/s. If no width is set it will expand naturally to fill its parent container. If no height is set, it will expand to fit its content.
+      </p>
+      <h4>
+        Example: (Div elements are naturally block level elements)
+      </h4>
+      <div id="simple">
+        This is a div with no width and height set.
+      </div>
+    </main>
+  </body>
+</html>

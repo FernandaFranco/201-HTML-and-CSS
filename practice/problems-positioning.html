@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Positinoning</title>
+    <meta charset="UTF-8" />
+    <style>
+      body {
+        background: #cfcfcf;
+      }
+
+      main {
+        box-sizing: border-box;
+        background: #fcfcfc;
+        padding-top: 5px;
+      }
+
+      #positioned {
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        /* Add a z-index greater than the elements you want to appear on top of */
+        z-index: 2;
+        width: 400px;
+        padding: 30px 15px;
+        margin-left: -200px;
+        background: #ffffff;
+        box-sizing: border-box;
+      }
+
+      #fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 1;
+        background: rgba(0, 0, 0, .6);
+      }
+
+      #positioned span {
+        width: 20px;
+        height: 20px;
+        background: #fcfc99;
+        position: absolute;
+        top: -10px;
+        left: -10px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis, lorem eu hendrerit pellentesque, ante massa lacinia sapien, non viverra dui leo non nulla. Aliquam vehicula pellentesque est, elementum interdum nunc fringilla a. Aliquam varius libero sit amet est venenatis, ut cursus erat luctus. Vestibulum id ligula eleifend, fermentum arcu in, congue ante. Aliquam erat volutpat. Duis maximus urna convallis sem volutpat sagittis. Nam posuere arcu non dapibus convallis. Integer tincidunt erat ac sapien condimentum, eu fringilla leo condimentum. Duis congue mauris sed odio faucibus congue id eget dui. Aenean at leo vehicula, vulputate sapien vel, dignissim orci. Donec ut tellus mollis risus placerat volutpat hendrerit vitae ligula. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus mollis nibh ut libero porttitor, non feugiat eros maximus. Proin et mi metus. Donec dignissim rhoncus mauris eget porta. Integer id velit non eros eleifend consequat.
+      </p>
+      <p>
+      Duis eget tempor massa. Nulla facilisi. Fusce sagittis ligula eget lorem malesuada molestie in eu orci. Donec vel lacinia sem. Suspendisse finibus tristique cursus. Suspendisse eros sem, condimentum sit amet dolor at, consectetur dapibus urna. Vivamus porttitor nibh cursus feugiat vestibulum. Mauris mauris felis, dignissim at iaculis at, dapibus id orci. Integer orci mauris, suscipit quis accumsan semper, dignissim et leo. Maecenas sit amet massa pretium, ornare urna sed, commodo est. Fusce quam tellus, convallis eu turpis cursus, feugiat gravida orci. Curabitur fringilla urna arcu, a sagittis mauris aliquam ac. Donec convallis cursus pretium. Proin sit amet massa varius, sodales felis nec, viverra ex. Fusce viverra nisl sed mollis pretium. Pellentesque vulputate ipsum quis lacus pulvinar finibus.
+      </p>
+      <p>
+      Phasellus lacinia ultricies dolor. In consectetur mi sit amet lorem cursus rutrum. Duis auctor molestie tellus, id vehicula augue accumsan quis. Curabitur dignissim cursus nisi, viverra condimentum odio dignissim sed. Vestibulum ut neque mattis, egestas orci porttitor, lacinia arcu. Vestibulum elementum ante sem, quis tincidunt metus aliquet ac. Suspendisse potenti. Cras tempor elit in sapien tincidunt, non vehicula urna facilisis. Morbi tempus orci convallis, pellentesque felis nec, euismod nunc. Duis ultricies tortor nisi, at rutrum orci ultrices et. Vestibulum et aliquet arcu, nec luctus lectus.
+      </p>
+      <p>
+      Aenean auctor ornare pretium. Curabitur dignissim ex ligula. Quisque ullamcorper diam justo, ac hendrerit metus facilisis sed. Donec iaculis porttitor ligula, a pellentesque felis blandit non. Suspendisse non ante et erat tempus porta eu sed tellus. Vivamus eleifend lobortis diam, ut fringilla risus fermentum non. Donec augue nisi, tincidunt eget quam ut, pretium malesuada libero. Duis dictum leo sed pharetra facilisis. Etiam laoreet, ex sed interdum mattis, arcu lacus ultricies diam, in tristique ligula diam vitae dolor. Curabitur ligula eros, finibus at semper in, sodales non lectus.
+      </p>
+      <p>
+      Praesent posuere ex in dolor volutpat lacinia. Quisque viverra ante vel lectus sagittis interdum. Proin id maximus felis, ut sollicitudin diam. Nam purus libero, varius sit amet venenatis in, accumsan congue augue. Quisque vestibulum mauris metus, ut laoreet nisi bibendum ut. Nulla vitae tortor a elit volutpat consequat eu vitae ex. In eget egestas quam. Donec rhoncus pharetra dolor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas ornare lacus vel fringilla efficitur. Mauris magna diam, consectetur laoreet ligula sit amet, lacinia convallis enim. Nunc vehicula tempor libero vel tincidunt. Integer ac erat posuere, pulvinar nibh ut, auctor nisi. Nullam rhoncus diam et felis efficitur iaculis. In pretium rutrum consectetur. Sed vel nulla ornare, euismod ex ut, eleifend est.
+      </p>
+    </main>
+    <div id="fixed"></div>
+    <div id="positioned">
+      <p>I'm positioned!</p>
+      <span></span>
+    </div>
+  </body>
+</html>

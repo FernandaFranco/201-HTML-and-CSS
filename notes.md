@@ -64,7 +64,7 @@ https://launchschool.com/lessons/2d134e42/assignments/327b6fe4
 
 - We omit units when using zero lengths because 0 is the same in any measurement.
 
-### Layout and Positioning
+### Layout with CSS: Box Model, Positioning and Floats Rules
 
 - display: inline, inline-block, block
 - float: left, right
@@ -72,7 +72,7 @@ https://launchschool.com/lessons/2d134e42/assignments/327b6fe4
 - overflow: visible, hidden, scroll, auto
 - position: static, absolute, relative, fixed
 
-- block formating context
+- block or inline formating context
 
 - You can set overflow on a container to have it take up the remaining space within a row of floated elements. This is useful if your last element can take up the leftover space in a variable width layout.
 
