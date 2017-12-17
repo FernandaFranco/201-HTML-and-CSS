@@ -8,10 +8,20 @@
         box-sizing: border-box;
       }
       *,
-      :before,
-      :after {
+      ::before,
+      ::after {
         box-sizing: inherit;
       }
+
+      .cf::before, .cf::after {
+        display: block;
+        content: "";
+      }
+
+      .cf::after {
+        clear: both;
+      }
+
 
       main {
         border: 2px solid #999;
@@ -30,11 +40,11 @@
         color: #ce4a4a;
       }
 
-      .anchor {
-        border: 2px dashed black;
-        margin: 50px;
-        padding: 20px;
-        overflow: hidden;
+      .border {
+        border: 2px dashed #555;
+        width: 650px;
+        margin: 45px;
+        padding: 30px;
       }
 
       a {
@@ -51,25 +61,24 @@
         color: white;
       }
 
-      #with-margin a {
+      .inline-margin a {
         margin: 30px;
       }
 
-      #with-padding a {
-        padding: 20px 30px;
+      .inline-padding a {
+        padding: 30px;
         background: green;
 
       }
 
-      #with-floating a {
+      .inline-float a {
         float: left;
         border: 3px solid darkgreen;
         background: green;
         text-align: center;
-        line-height: 70px;
-        margin: 20px;
+        margin: 15px;
         width: 120px;
-        height: 70px;
+        padding: 25px;
       }
 
       #simple {
@@ -230,28 +239,28 @@
       <p>Inline elements occupies only the space of the content. it does not take width and height values.</p>
       <h4>Example:</h4>
       <p>Anchor tags are normally inline elements, you see they only take up the width of their content and not the whole width of the page then the next anchor tags follow right after it.</p>
-      <div class= "anchor" id="without-margin">
+      <div class= "border">
         <a href="#">Home</a>
         <a href="#">Portfolio</a>
         <a href="#">Contact</a>
       </div>
       <h4>What happens if we set a margin property on an inline level element?</h4>
       <p>Inline elements will only take left and right margin values.</p>
-      <div class= "anchor" id="with-margin">
+      <div class= "border inline-margin">
         <a href="#">Home</a>
         <a href="#">Portfolio</a>
         <a href="#">Contact</a>
       </div>
       <p>In the example I put a margin of 30px on all sides, as you can see if you check the anchor tag in the developer tools only the left and right side of the contents are affected by the margin.</p>
       <h4>What about padding?</h4>
-      <div class= "anchor box" id="with-padding">
+      <div class= "border box inline-padding">
         <a href="#">Home</a>
         <a href="#">Portfolio</a>
         <a href="#">Contact</a>
       </div>
       <p>Inline elements accept padding values on all sides.</p>
       <h4>Floating Inline Elements</h4>
-      <div class= "anchor box" id="with-floating">
+      <div class= "border box inline-float cf">
         <a href="#">Home</a>
         <a href="#">Portfolio</a>
         <a href="#">Contact</a>
