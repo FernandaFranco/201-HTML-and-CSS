@@ -76,6 +76,9 @@ https://launchschool.com/lessons/2d134e42/assignments/327b6fe4
 
 - You can set overflow on a container to have it take up the remaining space within a row of floated elements. This is useful if your last element can take up the leftover space in a variable width layout.
 
+- Setting display to none will render the page as though the element does not exist. visibility: hidden; will hide the element, but the element will still take up the space it would if it was fully visible.
+
+- If the floated element is bigger than it's parent container, you may have to set the overflow property (auto or hidden).
 
 
 
