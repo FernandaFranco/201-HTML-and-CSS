@@ -31,7 +31,15 @@ The body of a POST request is never displayed to the user, but is possible to ac
 - Typically, both the name and id attribute values are identical.
 - The for attr in a label tag refferences an id.
 - The name attribute applies mostly to input controls in forms, since the server gets a name/value pair when the form is submitted;
+- Omitting the name attribute means the value will not be sent to the server, so be sure to remember to add it.
 - names in a group of radio buttons are the same
+
+## labels
+
+-If the design must have a placeholder attribute acting like a label, be sure to include the label element and hide it with CSS. The lack of a label element prevents screen readers from being able to tell their user what the field is expecting, making it impossible for forms to be properly completed when using such a browser.
+
+- Adding inputs inside our label elements is a convenient way of making the text for the label activate the corresponding input without having to add a for attribute on the label.
+
 
 ## Don't use tables for layout purposes
 
@@ -92,3 +100,7 @@ To display these characters as text, replace them with their corresponding chara
 ### CSS Resets
 
 - Choose one that you prefer and customize it to your needs;
+
+### On figures (again?)
+
+If an image is related to the text content, make that a figure element (even if the image doesn't contain any captions)

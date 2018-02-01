@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Forms Practice</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <!-- <form method="post" action="#">
+      <fieldset>
+        <dl>
+          <dt>
+            <label for="first_name">First name:</label>
+          </dt>
+          <dd>
+            <input type="text" name="first_name" id="first_name"/>
+          </dd>
+          <dt>
+            <label for="last_name">Last name:</label>
+          </dt>
+          <dd>
+            <input type="text" name="last_name" id="last_name"/>
+          </dd>
+          <dt>
+            <label for="email_address">Email address:</label>
+          </dt>
+          <dd>
+            <input type="email" name="email_address" autocomplete="nope" id="email_address"/>
+          </dd>
+          <dt>
+            <label for="phone_number">Phone number:</label>
+          </dt>
+          <dd>
+            <input type="tel" name="phone_number" id="phone_number"/>
+          </dd>
+          <dt>
+            <label for="phone_type">Phone type:</label>
+          </dt>
+          <dd>
+            <select name="phone_type" id="phone_type">
+              <option value="home" selected>home</option>
+              <option value="business">business</option>
+              <option value="mobile">mobile</option>
+            </select>
+          </dd>
+        </dl>
+      <input type="submit" name="submit" />
+      </fieldset>
+    </form> -->
+    <form action="#" method="get">
+      <fieldset>
+        <label>
+          Category
+          <select name="category">
+            <option value="core">Core</option>
+            <option value="plugins">Plugins and Libraries</option>
+            <option value="conventions">Conventions</option>
+            <option value="reviews">Reviews</option>
+            <option value="opinion">Opinion</option>
+            <option value="people">People</option>
+          </select>
+        </label>
+        <label>
+          Tags
+          <select name="tags" multiple="">
+            <option value="html">Html</option>
+            <option value="css">Css</option>
+            <option value="javascript">Javascript</option>
+            <option value="ruby">Ruby</option>
+            <option value="rails">Rails</option>
+            <option value="python">Python</option>
+            <option value="django">Django</option>
+          </select>
+        </label>
+        <input type="submit" value="Filter" />
+        <input type="reset" value="Reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>
