@@ -40,6 +40,10 @@ The body of a POST request is never displayed to the user, but is possible to ac
 
 - Adding inputs inside our label elements is a convenient way of making the text for the label activate the corresponding input without having to add a for attribute on the label.
 
+## Select and option elements
+
+- If the content between the option tags is what we want to send when the form gets submitted, we don't need to add value attributes to the option element.
+
 
 ## Don't use tables for layout purposes
 
