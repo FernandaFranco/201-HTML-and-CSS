@@ -46,6 +46,7 @@ dl.partial {
   display: inline-block;
   box-sizing: border-box;
   margin-top: 0;
+  vertical-align: top;
 }
 
 dl.city {
