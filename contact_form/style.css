@@ -45,7 +45,7 @@ ul {
 dl.partial {
   display: inline-block;
   box-sizing: border-box;
-  margin-top: 0;
+  margin: 0;
   vertical-align: top;
 }
 
@@ -62,4 +62,7 @@ dl.state {
   padding: 0 10px;
 }
 
+p {
+  margin-top: 0;
+}
 
