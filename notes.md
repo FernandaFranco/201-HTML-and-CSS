@@ -108,3 +108,15 @@ To display these characters as text, replace them with their corresponding chara
 ### On figures (again?)
 
 If an image is related to the text content, make that a figure element (even if the image doesn't contain any captions)
+
+### Pseudo Elements
+
+- The before and after pseudo elements are elements that occur inside the element. This means that if the text is long enough to wrap to a new line in one of our list items, the next line of text will appear underneath our asterisk.
+
+- The pseudo elements default to being inline elements, but could be changed to block or inline-block, have padding, margin, border, background, even box shadow.
+
+- For the pseudo element to display, you must define the content property, even if it's left empty.
+
+- Double colons (::) for pseudo-elements, single colon (:) for pseudo-classes. Most browsers accept both, but for some of the newer pseudo-elements introduced in CSS3 only (::) is accepted; All browsers support double colons for pseudo-elements except Internet Explorer (IE) 8 and below.
+
+- It is recommended the use of single-colon notation for pseudo-elements so the CSS is backwards-compatible with legacy browsers. Use double-colon notation on those pseudo-elements that require it, of course.
