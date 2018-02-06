@@ -1,79 +1,95 @@
 @import url("whitespace-reset.css");
 
 body {
-  background: #2f2840 url("images/bg_body.gif") 0 0 repeat;
-  font: normal 20px Avenir, Helvetica, Arial, sans-serif;
+  padding: 75px 0 0 0;
+  font: normal 20px "Avenir", Helvetica, Arial, sans-serif;
+  text-align: center;
   color: #45494d;
+  background: #2f2840 url("images/bg_body.gif") 50% 0 repeat;
 }
 
-header {
-  width: 1200px;
-  margin: 0 auto;
-  text-align: center;
+header h1 {
+  margin: 0 0 115px 0;
 }
-h1 {
-  margin: 90px 0;
-}
+
 header li {
   display: inline-block;
-  padding-bottom: 35px;
+  padding: 0 45px 45px 45px;
 }
 
-li.middle {
-  padding: 0 80px;
-}
 header li a {
   font-size: 26px;
   text-decoration: none;
   text-transform: uppercase;
   color: #cacaca;
 }
-a.current {
+
+a.active {
   font-weight: bold;
   color: #6db9ff;
 }
 
 main {
-  width: 1200px;
-  margin: 0 auto;
-  background: #fff;
-  padding: 120px 120px 0 120px;
-  box-sizing: border-box;
-  text-align: center;
+  padding: 100px 0 0 0;
+  background: #ffffff;
 }
 
 h2 {
   font-size: 36px;
-  font-weight: bolder;
+  font-weight: 600;
   padding-bottom: 40px;
 }
+
+h2:before,
+h2:after {
+  display: inline-block;
+  padding: 0 24px;
+  font-size: 22px;
+  vertical-align: 5px;
+  content: "\2022";
+}
+
 h3 {
   font-size: 24px;
   color: #3e59b2;
   padding-bottom: 20px;
 }
-p {
-  padding: 0 100px 150px 100px;
+
+article {
+  padding: 0 0 100px 0;
+}
+
+article p {
+  padding: 0 110px;
+}
+
+.column {
+  width: 1000px;
+  margin: 0 auto;
 }
 
 footer {
-  width: 1200px;
-  margin: 0 auto;
   background: #e7e7e7;
-  text-align: center;
-  padding: 80px 250px 40px 250px;
-  box-sizing: border-box;
+  padding: 80px 0;
   color: #b2b2b2;
 }
+
+footer p {
+  padding-bottom: 35px;
+}
+
 footer li {
   display: inline-block;
+  padding: 0 62px;
 }
+
 footer a {
   background: transparent url("images/icons_social-media.png") 0 0 no-repeat;
-  display: inline-block;
+  display: block;
   height: 46px;
   width: 46px;
-  margin: 30px;
+  text-indent: -9999px;
+  overflow: hidden;
 }
 
 footer a.facebook {
@@ -90,3 +106,37 @@ footer a.instagram {
 
 /* Projects page */
 
+#projects figure {
+  padding: 0 0 55px 0;
+}
+
+#projects figure img {
+  display: block;
+}
+
+/* Team page */
+
+#team p {
+  padding: 0 120px 120px 120px;
+}
+
+#team li {
+  display: inline-block;
+  padding: 0 30px;
+  font-size: 24px;
+}
+
+#team ul {
+  padding: 0 0 225px 0;
+}
+
+#team a {
+  text-decoration: none;
+  color: #3e59b2;
+}
+#team a img {
+  display: block;
+  margin: 0 0 25px 0;
+}
+
+/* Team detail */
