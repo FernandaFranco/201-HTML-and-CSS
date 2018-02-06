@@ -1,0 +1,92 @@
+@import url("whitespace-reset.css");
+
+body {
+  background: #2f2840 url("images/bg_body.gif") 0 0 repeat;
+  font: normal 20px Avenir, Helvetica, Arial, sans-serif;
+  color: #45494d;
+}
+
+header {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+h1 {
+  margin: 90px 0;
+}
+header li {
+  display: inline-block;
+  padding-bottom: 35px;
+}
+
+li.middle {
+  padding: 0 80px;
+}
+header li a {
+  font-size: 26px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #cacaca;
+}
+a.current {
+  font-weight: bold;
+  color: #6db9ff;
+}
+
+main {
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 120px 120px 0 120px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  padding-bottom: 40px;
+}
+h3 {
+  font-size: 24px;
+  color: #3e59b2;
+  padding-bottom: 20px;
+}
+p {
+  padding: 0 100px 150px 100px;
+}
+
+footer {
+  width: 1200px;
+  margin: 0 auto;
+  background: #e7e7e7;
+  text-align: center;
+  padding: 80px 250px 40px 250px;
+  box-sizing: border-box;
+  color: #b2b2b2;
+}
+footer li {
+  display: inline-block;
+}
+footer a {
+  background: transparent url("images/icons_social-media.png") 0 0 no-repeat;
+  display: inline-block;
+  height: 46px;
+  width: 46px;
+  margin: 30px;
+}
+
+footer a.facebook {
+  background-position: 0 -46px;
+}
+
+footer a.email {
+  background-position: 0 -92px;
+}
+
+footer a.instagram {
+  background-position: 0 100%;
+}
+
+/* Projects page */
+
