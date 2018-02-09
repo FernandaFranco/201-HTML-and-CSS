@@ -36,7 +36,7 @@ The body of a POST request is never displayed to the user, but is possible to ac
 
 ## labels
 
--If the design must have a placeholder attribute acting like a label, be sure to include the label element and hide it with CSS. The lack of a label element prevents screen readers from being able to tell their user what the field is expecting, making it impossible for forms to be properly completed when using such a browser.
+- If the design must have a placeholder attribute acting like a label, be sure to include the label element and hide it with CSS. The lack of a label element prevents screen readers from being able to tell their user what the field is expecting, making it impossible for forms to be properly completed when using such a browser.
 
 - Adding inputs inside our label elements is a convenient way of making the text for the label activate the corresponding input without having to add a for attribute on the label.
 
@@ -120,3 +120,31 @@ If an image is related to the text content, make that a figure element (even if 
 - Double colons (::) for pseudo-elements, single colon (:) for pseudo-classes. Most browsers accept both, but for some of the newer pseudo-elements introduced in CSS3 only (::) is accepted; All browsers support double colons for pseudo-elements except Internet Explorer (IE) 8 and below.
 
 - It is recommended the use of single-colon notation for pseudo-elements so the CSS is backwards-compatible with legacy browsers. Use double-colon notation on those pseudo-elements that require it, of course.
+
+### Responsive web design
+
+- Responsive Web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation. (- Smashing Magazine)
+
+- Flexible grids are build using relative length units such as percentages or em;
+
+- Common grid properties are width, margin, padding...
+
+- CSS3 introduced new relative length units: vw, vh, vmin, vmax. Support across browsers isn't great yet.
+
+#### Media queries and media features
+
+- The height and width features are based off the height and width of the viewport rendering area, the browser window for example.
+
+#### Mobile First
+
+- a user on a mobile device, commonly using a smaller viewport, shouldn’t have to load the styles for a desktop computer only to have them over written with mobile styles later. Doing so is a waste of bandwidth.
+
+- When media assets are used excessively, they cause heavy loading and can even reduce a device’s battery life.
+
+- best practices for mobile environments: simpler navigation, more focused content, lists or rows instead of multiple columns.
+
+- increase white space or to replace image navigation sources on mobile devices for better usability (icons would be more beneficial on smaller screens).
+
+#### Meta viewport tag
+
+- To have the effects of the emulated devices render properly you must put the following <meta> element in the <head> part of the <html>: '<meta name="viewport" content="width=device-width, initial-scale=1">''
