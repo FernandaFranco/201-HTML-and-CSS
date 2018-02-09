@@ -147,4 +147,4 @@ If an image is related to the text content, make that a figure element (even if 
 
 #### Meta viewport tag
 
-- To have the effects of the emulated devices render properly you must put the following <meta> element in the <head> part of the <html>: '<meta name="viewport" content="width=device-width, initial-scale=1">''
+- To have the effects of the emulated devices render properly you must put the following <meta> element in the <head> part of the <html>: `<meta name="viewport" content="width=device-width, initial-scale=1">`
