@@ -86,6 +86,8 @@ https://launchschool.com/lessons/2d134e42/assignments/327b6fe4
 
 - block or inline formating context
 
+- Inline elements are subject to line height and vertical alignment, while block elements are not.
+
 - You can set overflow on a container to have it take up the remaining space within a row of floated elements. This is useful if your last element can take up the leftover space in a variable width layout.
 
 - Setting display to none will render the page as though the element does not exist. visibility: hidden; will hide the element, but the element will still take up the space it would if it was fully visible.
@@ -147,4 +149,4 @@ If an image is related to the text content, make that a figure element (even if 
 
 #### Meta viewport tag
 
-- To have the effects of the emulated devices render properly you must put the following <meta> element in the <head> part of the <html>: `<meta name="viewport" content="width=device-width, initial-scale=1">`
+- To have the effects of the emulated devices render properly you must put the following `<meta>` element in the `<head>` part of the `<html>`: `<meta name="viewport" content="width=device-width, initial-scale=1">`
