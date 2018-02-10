@@ -9,7 +9,16 @@ body {
 }
 
 header h1 {
-  margin: 0 0 115px 0;
+  margin: 0 0 75px 0;
+
+}
+
+header h1 a {
+  background: transparent url('images/logo.png') 0 0 no-repeat;
+  display: inline-block;
+  width: 298px;
+  height: 243px;
+  text-indent: -999999px;
 }
 
 header li {
@@ -64,7 +73,7 @@ article p {
 }
 
 .column {
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -111,6 +120,8 @@ footer a.instagram {
 }
 
 #projects figure img {
+  width: 100%;
+  box-sizing: border-box;
   display: block;
 }
 
@@ -140,3 +151,132 @@ footer a.instagram {
 }
 
 /* Team detail */
+
+/* Media queries */
+
+@media screen and (max-width: 875px) {
+  #team li {
+    width: 50%;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+  }
+
+  #team a img {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 65px;
+  }
+  header h1 a {
+    width: 223px;
+    height: 182px;
+    background-size: cover;
+  }
+
+  header h1 {
+    margin-bottom: 30px;
+  }
+
+  header li {
+    padding-bottom: 20px;
+  }
+
+  main {
+    padding-top: 70px;
+  }
+
+  #projects figure img {
+    padding: 0 30px;
+  }
+  article p {
+    padding: 0 40px;
+    text-align: justify;
+  }
+
+  article {
+    padding-bottom: 50px;
+  }
+
+  footer {
+    padding: 35px 0;
+  }
+
+  footer li {
+    padding: 0 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  body {
+    padding-top: 0;
+  }
+
+  header {
+    padding: 20px 15px;
+  }
+  header h1 {
+    float: left;
+    margin-top: 20px;
+  }
+
+  header h1 a {
+    background-size: 90px;
+    background-position: -20px 0;
+    width: auto;
+    height: 40px;
+    text-indent: 55px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+  header li {
+    display: block;
+    padding: 5px 0;
+    text-align: right;
+  }
+
+  header li a {
+    font-size: 16px;
+  }
+
+  main {
+    clear: both;
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  h2:before,
+  h2:after {
+    vertical-align: 0;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  #team p {
+    padding: 0 30px 40px 30px;
+    text-align: justify;
+  }
+
+  #team ul {
+    padding-bottom: 100px;
+  }
+
+  footer p {
+    font-size: 16px;
+  }
+  footer li {
+    padding: 0 18px;
+  }
+
+}
