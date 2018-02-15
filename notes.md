@@ -150,3 +150,8 @@ If an image is related to the text content, make that a figure element (even if 
 #### Meta viewport tag
 
 - To have the effects of the emulated devices render properly you must put the following `<meta>` element in the `<head>` part of the `<html>`: `<meta name="viewport" content="width=device-width, initial-scale=1">`
+
+
+#### Styling links
+
+Use LVHA for link styling. “To ensure that you see your various link styles, you’re best off putting your styles in the order “link-visited-hover-active”, or “LVHA” for short.” [Link Specificity]
