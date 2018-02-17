@@ -1,0 +1,70 @@
+html {
+  font: normal 28px Helvetica, Arial, sans-serif;
+}
+
+main {
+  width: 680px;
+  background: #ffffff;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  padding: 10px 15px;
+}
+
+h1, h2, h3, p, dt, dd {
+  margin: 0;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.large-bottom {
+  padding-bottom: 10px;
+  border-bottom: 30px solid #000000;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 22px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 5px;
+}
+
+dl {
+  margin: 0;
+}
+
+dt {
+  font-weight: bold;
+  display: inline-block;
+}
+
+th {
+  font-weight: normal;
+}
+
+dd {
+  display: inline-block;
+}
+
+h3 {
+  font-size: 22px;
+  border-top: 10px solid #000000;
+  text-align: right;
+}
+
+dl + p:before {
+content: "\002a";
+position: absolute;
+left: 0;
+}
+
+dl + p {
+  padding: 20px;
+  position: relative;
+}
+
+tr{
+  border-bottom: 2px solid #c0c0c0;
+}
