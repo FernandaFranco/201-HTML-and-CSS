@@ -53,6 +53,8 @@ https://launchschool.com/lessons/2d134e42/assignments/327b6fe4
 
 ## Things to explore
 
+- Github best practices: When to commit, what to say in a message
+
 - Screen reading software: examples of when proper semantics makes a difference
 
 - HTML5: does it offer more grouping elements to replace divs with something more meaningful? Ex: figure tag
